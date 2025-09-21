@@ -26,7 +26,7 @@ async function Product({ params }: IProductProps) {
             price: <span>{data.price}</span>{" "}
           </p>
           <p className="text-gray-600">{data.description}</p>
-          <AddToCart />
+          <AddToCart id={id} />
         </div>
       </div>
     </Container>
