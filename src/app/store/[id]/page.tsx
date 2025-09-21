@@ -1,3 +1,4 @@
+import AddToCart from "@/components/AddToCart";
 import Container from "@/components/Container";
 import { IProductItemProps } from "@/components/ProductItem";
 import Link from "next/link";
@@ -25,15 +26,7 @@ async function Product({ params }: IProductProps) {
             price: <span>{data.price}</span>{" "}
           </p>
           <p className="text-gray-600">{data.description}</p>
-          <div className="mt-3">
-            <button className="px-4 py-1 rounded bg-sky-500 text-white">
-              +
-            </button>
-            <span className="mx-2">20</span>
-            <button className="px-4 py-1 rounded bg-sky-500 text-white">
-              -
-            </button>
-          </div>
+          <AddToCart />
         </div>
       </div>
     </Container>
