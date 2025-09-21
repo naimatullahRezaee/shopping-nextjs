@@ -1,0 +1,144 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "title": "News",
+      "description": "Stay informed with the latest global and local news. From politics to technology, updates help you understand the world better. News connects people with important stories every day.",
+      "image": "https://i.marketingprofs.com/assets/images/articles/lg/150518-Digital-Dictionary-Blog-lg.jpg",
+      "price": "30"
+    },
+    {
+      "id": "2",
+      "title": "Computer",
+      "description": "A computer is an electronic device that processes data quickly. It is used in education, research, business, and entertainment. Modern life is almost impossible without computers.",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfLaFhNv199r-z6UTY1N6CwcS9pwDQwvdIAg&s",
+      "price": "50"
+    },
+    {
+      "id": "3",
+      "title": "Technology",
+      "description": "Technology makes life easier and more advanced every year. From smartphones to artificial intelligence, it changes how we live. It is the key driver of modern innovation.",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRl-g8Wh6XyXqoPb710U7j2vcyH-2RdtKgOeQ&s",
+      "price": "40"
+    },
+    {
+      "id": "4",
+      "title": "Education",
+      "description": "Education builds knowledge, skills, and values in society. It opens doors to better opportunities and brighter futures. Lifelong learning is essential for personal growth and success.",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyh1VShww7ozU8IAxHiN5Wrpq8gkaEJPZv3w&s",
+      "price": "35"
+    },
+    {
+      "id": "5",
+      "title": "Health",
+      "description": "Health includes physical, mental, and emotional well-being. A balanced lifestyle with food, exercise, and care keeps us strong. Good health leads to a longer and happier life.",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKHJ25C8bMTwPHNgXtF9X0YB6cAKiFox7iGg&s",
+      "price": "25"
+    },
+    {
+      "id": "6",
+      "title": "Sports",
+      "description": "Sports bring people together through teamwork and competition. They keep the body fit and the mind active. From football to cricket, sports are loved across the world.",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuaQN9CR1V1C4ZWKDRjuqKmJALj_uuYpSYOg&s",
+      "price": "28"
+    },
+    {
+      "id": "7",
+      "title": "Science",
+      "description": "Science explains the natural world through experiments and facts. It covers biology, chemistry, physics, and astronomy. Every discovery shapes the way humans live and think.",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-DxZFrxnpLgJrBBk3qv1E2TFjs8kHp7wNoQ&s",
+      "price": "38"
+    },
+    {
+      "id": "8",
+      "title": "Travel",
+      "description": "Travel lets people explore new cultures and places. It creates memories and broadens knowledge about the world. Every journey teaches something new and exciting.",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkDTXPqJxHAf1W-0YvcF9jrjy18AtDjDORdQ&s",
+      "price": "45"
+    },
+    {
+      "id": "9",
+      "title": "Business",
+      "description": "Business is about trade, innovation, and entrepreneurship. It helps people exchange goods, services, and ideas. Strong businesses grow the economy and create opportunities.",
+      "image": "https://www.elegantthemes.com/blog/wp-content/uploads/2021/01/online-business-ideas-featured-image-scaled.jpg",
+      "price": "60"
+    },
+    {
+      "id": "10",
+      "title": "Food",
+      "description": "Food gives energy and nutrients needed for health. Each culture offers unique tastes and cooking traditions. Good food brings family and friends together at the table.",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTatLiJAG6jse2XTu96VcidI8X5OYIvWzcenw&s",
+      "price": "20"
+    },
+    {
+      "id": "11",
+      "title": "Art",
+      "description": "Art expresses emotions, culture, and creativity. It appears in paintings, music, dance, and design. Every piece of art tells a unique story from the heart of its creator.",
+      "image": "https://cdna.artstation.com/p/top_row_items/images/000/002/730/20250619120314/original/top-row-on-artstaion-copy-890x500.jpg?1750352594",
+      "price": "42"
+    },
+    {
+      "id": "12",
+      "title": "History",
+      "description": "History records events and stories of past civilizations. It teaches lessons from successes and failures. Knowing history helps us build a stronger and wiser future.",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQF1Ma75i8KyXQ7EAft70l7pXDdaj3HmbFRFQ&s",
+      "price": "33"
+    },
+    {
+      "id": "13",
+      "title": "Music",
+      "description": "Music combines sound and rhythm into art. It brings joy, healing, and connection across cultures. From classical to modern, music is part of every human life.",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-Apu1JPEhQk5HgxHA4jqlmFMVPVfl6ji1RQ&s",
+      "price": "29"
+    },
+    {
+      "id": "14",
+      "title": "Movies",
+      "description": "Movies tell stories through film and imagination. They entertain, educate, and inspire people worldwide. From Hollywood to local cinema, films connect audiences everywhere.",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDPhiV5FLzBZv7He3-FnpaJD_Oah6cQ2qztg&s",
+      "price": "32"
+    },
+    {
+      "id": "15",
+      "title": "Fashion",
+      "description": "Fashion is the art of clothing and style. It changes with culture, seasons, and creativity. The fashion world inspires confidence and expression in people.",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStgIM8iP-T4Rj5jLFhdaqspjDUA5cGhqUikg&s",
+      "price": "55"
+    },
+    {
+      "id": "16",
+      "title": "Nature",
+      "description": "Nature gives us forests, oceans, mountains, and wildlife. It provides air, water, and resources for survival. Protecting nature is essential for future generations.",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTA2oASENe7GdCli1KnAl6cnDnuD6lGT60txQ&s",
+      "price": "37"
+    },
+    {
+      "id": "17",
+      "title": "Economy",
+      "description": "The economy is how money, goods, and services flow. It depends on trade, production, and government policies. A strong economy improves life for all citizens.",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNFBcuX2wlQZCcQFktzc9mj-_r_Y1aUerNzDxF9i6KM2XjBoBhEbYNygTpN1nSnfqQ2AI&usqp=CAU",
+      "price": "48"
+    },
+    {
+      "id": "18",
+      "title": "Politics",
+      "description": "Politics guides how countries are governed. It includes laws, leaders, and international relations. Political systems shape the daily lives of people everywhere.",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEre6BfDst_pItvCzRP1mbvjFPf5q2mi4KBw&s",
+      "price": "36"
+    },
+    {
+      "id": "19",
+      "title": "Space",
+      "description": "Space is a vast universe beyond Earth. It holds stars, planets, and galaxies. Exploring space helps us learn about our origin and future possibilities.",
+      "image": "https://img.freepik.com/free-photo/ultra-detailed-nebula-abstract-wallpaper-4_1562-749.jpg?semt=ais_incoming&w=740&q=80",
+      "price": "65"
+    },
+    {
+      "id": "20",
+      "title": "Programming",
+      "description": "Programming is the art of writing code for machines. It builds websites, apps, and software we use daily. Learning to program opens doors to countless opportunities.",
+      "image": "https://www.theforage.com/blog/wp-content/uploads/2023/04/computer-programming.jpg",
+      "price": "70"
+    }
+  ]
+}
