@@ -1,12 +1,11 @@
 import Container from "@/components/Container";
 import { IProductItemProps } from "@/components/ProductItem";
-import { SearchParams } from "next/dist/server/request/search-params";
 import Link from "next/link";
 import React from "react";
 
 interface IProductProps {
   params: Promise<{ id: string }>;
-  SearchParams: Promise<{}>;
+  SearchParams: Promise<{ "": string }>;
 }
 async function Product({ params }: IProductProps) {
   const { id } = await params;
