@@ -1,7 +1,7 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
 import { IProductItemProps } from "./ProductItem";
-import { log } from "console";
+import AddToCart from "./AddToCart";
 
 interface ICartItemProps {
   id: number;
@@ -30,13 +30,7 @@ function CartItem({ id, qty }: ICartItemProps) {
             price: <span>{product.price}$</span>
           </p>
           <div className="mt-3">
-            <button className="px-4 py-1 rounded bg-sky-500 text-white">
-              +
-            </button>
-            <span className="mx-2">{qty}</span>
-            <button className="px-4 py-1 rounded bg-sky-500 text-white">
-              -
-            </button>
+            <AddToCart id={id.toString()} />
           </div>
         </div>
       </div>
