@@ -3,9 +3,11 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import React from "react";
 import Container from "./Container";
+import { useShoppingCartContext } from "@/context/ShoppingCartContext";
 
 const Navbar = () => {
   const pathname = usePathname();
+  const { cartTotalQty } = useShoppingCartContext();
   const navLinks = [
     {
       href: "/",
@@ -33,10 +35,13 @@ const Navbar = () => {
               </Link>
             ))}
           </div>
-          <div>
+          <div className="">
             <Link href="/cart">
               <span className="text-white">Shopping</span>
             </Link>
+            <span className="text-white px-2 py-1 bg-red-500 rounded-full text-sm">
+              {cartTotalQty}
+            </span>
           </div>
         </div>
       </Container>
