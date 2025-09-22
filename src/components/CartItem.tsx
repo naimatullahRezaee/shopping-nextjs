@@ -18,10 +18,10 @@ function CartItem({ id, qty }: ICartItemProps) {
   }, [id]);
 
   return (
-    <div>
-      <div className="grid grid-cols-12 shadow-md m-4 h-50 rounded p-2 bg-gray-200">
-        <img className="col-span-3 h-44" src={product.image} alt="" />
-        <div className="col-span-9 px-4">
+    <div className="mx-3">
+      <div className="flex justify-between  shadow-md mb-8 h-50 rounded p-2 bg-gray-200">
+        <img className="w-54 h-44" src={product.image} alt="" />
+        <div className="w-44 px-4">
           <h2 className="font-bold">{product.title} </h2>
           <p className="font-bold">
             Quantity: <span>{qty}</span>
