@@ -21,6 +21,10 @@ const Navbar = () => {
       href: "/dashboard",
       title: "Dashboard",
     },
+    {
+      href: "/loging",
+      title: "Loging",
+    },
   ];
   return (
     <nav className="shadow p-4 bg-slate-700 ">
