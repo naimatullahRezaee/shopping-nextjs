@@ -15,6 +15,34 @@
       "price": "50"
     },
     {
+      "id": "100",
+      "title": "News",
+      "description": "Stay informed with the latest global and local news. From politics to technology, updates help you understand the world better. News connects people with important stories every day.",
+      "image": "https://i.marketingprofs.com/assets/images/articles/lg/150518-Digital-Dictionary-Blog-lg.jpg",
+      "price": "30"
+    },
+    {
+      "id": "101",
+      "title": "Computer",
+      "description": "A computer is an electronic device that processes data quickly. It is used in education, research, business, and entertainment. Modern life is almost impossible without computers.",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfLaFhNv199r-z6UTY1N6CwcS9pwDQwvdIAg&s",
+      "price": "50"
+    },
+    {
+      "id": "102",
+      "title": "News",
+      "description": "Stay informed with the latest global and local news. From politics to technology, updates help you understand the world better. News connects people with important stories every day.",
+      "image": "https://i.marketingprofs.com/assets/images/articles/lg/150518-Digital-Dictionary-Blog-lg.jpg",
+      "price": "30"
+    },
+    {
+      "id": "103",
+      "title": "Computer",
+      "description": "A computer is an electronic device that processes data quickly. It is used in education, research, business, and entertainment. Modern life is almost impossible without computers.",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfLaFhNv199r-z6UTY1N6CwcS9pwDQwvdIAg&s",
+      "price": "50"
+    },
+    {
       "id": "3",
       "title": "Technology",
       "description": "Technology makes life easier and more advanced every year. From smartphones to artificial intelligence, it changes how we live. It is the key driver of modern innovation.",
@@ -139,18 +167,72 @@
       "description": "Programming is the art of writing code for machines. It builds websites, apps, and software we use daily. Learning to program opens doors to countless opportunities.",
       "image": "https://www.theforage.com/blog/wp-content/uploads/2023/04/computer-programming.jpg",
       "price": "70"
+    },
+    {
+      "id": "592",
+      "title": "Animals",
+      "price": "5000",
+      "image": "https://static.vecteezy.com/system/resources/thumbnails/036/324/708/small/ai-generated-picture-of-a-tiger-walking-in-the-forest-photo.jpg",
+      "description": "\nLorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam eum veniam voluptas cum odio natus nisi quisquam dolorum veritatis reprehenderit. Temporibus nulla eos, eius repudiandae aliquid quam earum! Ullam, amet."
+    },
+    {
+      "id": "150",
+      "title": "Berd",
+      "price": "300",
+      "image": "https://static.vecteezy.com/system/resources/thumbnails/041/166/062/small/ai-generated-hawk-high-quality-image-free-photo.jpg",
+      "description": "Recusandae reprehenderit, asperiores iste tempora et perspiciatis fugiat vel eius nobis! Officiis itaque dolorem ea commodi dignissimos officia quos obcaecati quasi reprehenderit?"
     }
   ],
   "discounts": [
-    { "id": 1, "code": "OFF10", "percentage": 10 },
-    { "id": 2, "code": "OFF15", "percentage": 15 },
-    { "id": 3, "code": "SAVE20", "percentage": 20 },
-    { "id": 4, "code": "DIS25", "percentage": 25 },
-    { "id": 5, "code": "SALE30", "percentage": 30 },
-    { "id": 6, "code": "PROMO35", "percentage": 35 },
-    { "id": 7, "code": "GET40", "percentage": 40 },
-    { "id": 8, "code": "DEAL45", "percentage": 45 },
-    { "id": 9, "code": "OFFER50", "percentage": 50 },
-    { "id": 10, "code": "MAX60", "percentage": 60 }
+    {
+      "id": 1,
+      "code": "OFF10",
+      "percentage": 10
+    },
+    {
+      "id": 2,
+      "code": "OFF15",
+      "percentage": 15
+    },
+    {
+      "id": 3,
+      "code": "SAVE20",
+      "percentage": 20
+    },
+    {
+      "id": 4,
+      "code": "DIS25",
+      "percentage": 25
+    },
+    {
+      "id": 5,
+      "code": "SALE30",
+      "percentage": 30
+    },
+    {
+      "id": 6,
+      "code": "PROMO35",
+      "percentage": 35
+    },
+    {
+      "id": 7,
+      "code": "GET40",
+      "percentage": 40
+    },
+    {
+      "id": 8,
+      "code": "DEAL45",
+      "percentage": 45
+    },
+    {
+      "id": 9,
+      "code": "OFFER50",
+      "percentage": 50
+    },
+    {
+      "id": 10,
+      "code": "MAX60",
+      "percentage": 60
+    }
   ]
 }

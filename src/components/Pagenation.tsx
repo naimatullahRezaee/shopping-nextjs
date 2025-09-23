@@ -1,14 +1,18 @@
 "use client";
 
-import { useRouter } from "next/navigation";
+import { useRouter, useSearchParams } from "next/navigation";
 import React from "react";
 import ReactPaginate from "react-paginate";
 
 function Pagenation({ pageCount }: { pageCount: number }) {
+  const searchParams = useSearchParams();
   const router = useRouter();
   const handlePageClick = (e: { selected: number }) => {
     const page = e.selected + 1;
-    router.push(`/store?page=${page}&per_page=4`);
+    const currentSearchParams = new URLSearchParams(searchParams.toString());
+    currentSearchParams.set("page", page.toString());
+    currentSearchParams.set("per_page", "4");
+    router.push(`/store?${currentSearchParams}`);
   };
   return (
     <div className="flex justify-center mt-6">
